@@ -1,0 +1,7 @@
+p == &i;    // Verdadeiro (1)
+
+*p - *q;    // -2
+
+**&p;       // 3
+
+3- *p/(*q) +7; // 10.  (*p)/(*q)  é igual a 0 pois a divisão é entre dois inteiros, então o programa trunca o número 0.6 para 0.
