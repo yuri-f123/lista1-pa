@@ -1,0 +1,21 @@
+&x_char[0] = 6422076
+&x_char[1] = 6422077
+&x_char[2] = 6422078
+&x_char[3] = 6422079
+&x_int[0] = 6422048
+&x_int[1] = 6422052
+&x_int[2] = 6422056
+&x_int[3] = 6422060
+&x_float[0] = 6422032
+&x_float[1] = 6422036
+&x_float[2] = 6422040
+&x_float[3] = 6422044
+&x_double[0] = 6422000
+&x_double[1] = 6422008
+&x_double[2] = 6422016
+&x_double[3] = 6422024
+
+Por esse resultado, podemos ver que a variável do tipo char ocupa 1 byte, do tipo int ocupa 4 bytes,
+do tipo float ocupa 4 bytes, e do tipo double ocupa 8 bytes.
+As suposições sobre o tamanho das variáveis estavam corretas, com exceção da variável do tipo int,
+que ocupa o mesmo espaço que a variável do tipo float.
