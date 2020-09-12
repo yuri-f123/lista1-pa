@@ -1,0 +1,4 @@
+p = mat + 1;      //É válida. p está recebendo o endereço do segundo elemento do vetor mat.
+p = mat++;        //É inválida. O operador ++ não pode ser utilizado dessa forma com um vetor. 
+p = ++mat;        //É inválida. O operador ++ não pode ser utilizado dessa forma com um vetor.
+x = (*mat)++;     //É válida. x está recebendo o valor do primeiro elemento do vetor mat, em seguida, o primeiro elemento do vetor mat é somado a 1 (isso não afeta o valor de x).
