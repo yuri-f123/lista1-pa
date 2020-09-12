@@ -1,8 +1,8 @@
-aloha[2] = value;          //… v·lido.
-scanf("%f", &aloha);       //… v·lido.
-aloha = value";            //… inv·lido, n„o est· especificado qual elemento de aloha deve receber o valor.
-printf("%f", aloha);       //… inv·lido, n„o est· especificado qual elemento de aloha deve ser imprimido.
-coisas[4][4] = aloha[3];   //… v·lido.
-coisas[5] = aloha;         //… inv·lido.
-pf = value;                //… inv·lido.
-pf = aloha;                //… v·lido.
+aloha[2] = value;          //√â v√°lido.
+scanf("%f", &aloha);       //√â v√°lido.
+aloha = value";            //√â inv√°lido, n√£o est√° especificado qual elemento de aloha deve receber o valor.
+printf("%f", aloha);       //√â inv√°lido, n√£o est√° especificado qual elemento de aloha deve ser imprimido.
+coisas[4][4] = aloha[3];   //√â v√°lido.
+coisas[5] = aloha;         //√â inv√°lido.
+pf = value;                //√â inv√°lido.
+pf = aloha;                //√â v√°lido.
