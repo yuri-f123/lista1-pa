@@ -1,0 +1,2 @@
+Um ponteiro para função é um ponteiro que guarda o endereço de uma função na memória.
+É utilizado, principalmente, para determinar qual função deve ser utilizada durante a execução do programa.
