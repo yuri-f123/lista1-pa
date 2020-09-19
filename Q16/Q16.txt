@@ -1,0 +1,23 @@
+Utilizando a biblioteca <time.h>, criei duas variáveis do tipo clock_t, uma para armazenar o tempo imediatamente antes da ordenação do vetor, e outra
+para armazenar o tempo imediatamente depois, usando a função clock().
+
+Em seguida, imprimi "(double)(depois-antes)/CLOCKS_PER_SEC" para poder ver o tempo de execução da ordenação em segundos, onde CLOCKS_PER_SEC é uma constante da
+biblioteca <time.h>.
+
+Para poder conseguir ver o tempo em segundos e não nano ou microsegundos, enchi o vetor com 10000 números utilizando um for.
+
+Cada algoritmo foi testado 5 vezes, para o algoritmo da questão 14, os tempos foram:
+1.902000 s
+1.954000 s
+1.765000 s
+1.776000 s
+1.768000 s
+
+E para o algoritmo da função 15:
+1.779000 s
+1.830000 s
+1.882000 s
+1.919000 s
+1.908000 s
+
+A diferença dos tempos é pequena.
