@@ -1,5 +1,5 @@
 aloha[2] = value;          //É válido.
-scanf("%f", &aloha);       //É válido.
+scanf("%f", &aloha);       //É inválido, não está especificado qual elemento de aloha deve receber o valor.
 aloha = value";            //É inválido, não está especificado qual elemento de aloha deve receber o valor.
 printf("%f", aloha);       //É inválido, não está especificado qual elemento de aloha deve ser imprimido.
 coisas[4][4] = aloha[3];   //É válido.
