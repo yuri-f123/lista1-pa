@@ -1,0 +1,2 @@
+Devido ao sistema operacional do meu computador ser windows e por falta de espaço,
+não consegui instalar a biblioteca libgc para testar o programa
